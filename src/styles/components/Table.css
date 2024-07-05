@@ -1,0 +1,100 @@
+.table {
+  margin-top: 20px;
+  padding: 0 20px;
+  border-collapse: collapse;
+  background: white;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.table thead {
+  background: linear-gradient(180deg, #5A84C0 0%, #594ED2 100%);
+}
+
+.table tbody tr {
+  width: 100%;
+}
+
+.circle {
+  height: 8px;
+  width: 8px;
+}
+
+.mobile-job {
+  display: none;
+}
+
+.th-mobile {
+  display: none;
+}
+
+.table tbody img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
+
+.down-icon {
+  height: 32px;
+  width: 32px;
+}
+
+.table th {
+  height: 47px;
+  color: #FFFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.table td {
+  height: 60px;
+}
+
+.td-mobile {
+  display: none;
+}
+
+.more-table-container {
+  border-bottom: 2px solid #F0F0F0;
+}
+
+.table-disabled {
+  display: none;
+}
+
+.more-table {
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.shadow {
+  box-shadow: 0 1px 2px #00000020;
+}
+
+/* BREAKPOINTS */
+@media (min-width: 768px) {
+  .circle {
+    display: none;
+  }
+
+  .mobile-job {
+    display: block;
+  }
+
+  .th-mobile {
+    display: table-cell;
+  }
+
+  .td-mobile {
+    display: table-cell;
+  }
+
+  .down-icon {
+    display: none;
+  }
+}
+
